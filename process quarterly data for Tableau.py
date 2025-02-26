@@ -232,35 +232,6 @@ tax_code_to_description = {
     'T99': 'Other taxes, NEC T99'
 }
 
-# Define the dictionary to map tax codes to descriptions
-tax_code_to_description = {
-    'T00': 'Total Taxes',
-    'T01': 'Property taxes T01',
-    'T09': 'General sales and gross receipts T09',
-    'T13': 'Motor fuels T13',
-    'T10': 'Alcoholic beverages T10',
-    'T15': 'Public utilities T15',
-    'T12': 'Insurance premiums T12',
-    'T16': 'Tobacco products T16',
-    'T14': 'Pari-mutuels T14',
-    'T11': 'Amusements T11',
-    'T19': 'Other selective sales and gross receipts T19',
-    'T20': 'Alcoholic beverages T20',
-    'T27': 'Public utilities T27',
-    'T24': 'Motor vehicles T24',
-    'T25': 'Motor vehicle operators T25',
-    'T22': 'Corporations in general T22',
-    'T23': 'Hunting and fishing T23',
-    'T21': 'Amusements T21',
-    'T28': 'Occupation and businesses T28',
-    'T29': 'Other license taxes T29',
-    'T40': 'Individual income T40',
-    'T41': 'Corporation net income T41',
-    'T50': 'Death and gift T50',
-    'T53': 'Severance T53',
-    'T51': 'Documentary and stock transfer T51',
-    'T99': 'Other taxes, NEC T99'
-}
 
 # Convert tax codes to descriptions in the historical_data DataFrame
 historical_data.columns = pd.MultiIndex.from_tuples(
