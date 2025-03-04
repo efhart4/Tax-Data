@@ -8,7 +8,7 @@ import pandas as pd
 
 # Loop to Download Quarterly Data from 1995 to 2024
 #------------------------------------
-for years in range(2024, 2025):
+for years in range(1995, 2025):
     for myquarter in range(1, 5):
         
         # Break the loop after 2024 Q3
